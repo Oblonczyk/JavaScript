@@ -1,4 +1,4 @@
-//VARIAVEIS E VARIAVEIS EM FUNÇÕES
+//VAR E LET
 
 //Atualmente usar var para declarar variáveis é algo ultrapassado, o let é mais utilizado
 
@@ -23,3 +23,8 @@ console.log('Maria teve 1 filho com ' + nome +' em 2015');
 console.log('O filho de '+ nome +' se chama Eduardo.');
 
 // sinal de + é usado para concatenar strings e para somar valores
+
+//DIFERENÇAS ENTRE VAR E LET
+
+//Se voce criar uma VAR e redeclarar deveria gerar um erro, pois esta sendo declarada novamente
+//Usando LET há a possibilidade de redeclarar a variavel mas sem, na nova declaração, escrever o LET antes do nome da variavel 

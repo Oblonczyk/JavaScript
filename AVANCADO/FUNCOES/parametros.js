@@ -43,4 +43,5 @@ const conta = function conta(operador, acumulador, ...numeros) { // Os ... é ch
 
     console.log(acumulador);
 };
+
 conta('+', 1, 20, 30, 40, 50);

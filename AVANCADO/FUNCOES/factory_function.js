@@ -1,3 +1,5 @@
+// função fabrica fabrica obj
+
 function criaPessoa(nome, sobrenome, altura, peso) {
     return {
         nome,
